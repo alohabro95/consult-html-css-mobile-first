@@ -6,10 +6,390 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://meyerweb.com/eric/tools/css/reset/reset.css">
 </head>
 
 <body>
+    <section class="section-header">
+        <div class="header">
+            <img src="./images/Group 1194.png" alt="consult" class="header__consult">
+            <img src="./images/Group 1195.png" alt="menu" class="header__burger-menu">
+            <div class="header__menu">
+                <ul class="header__list">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">About us</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Testimonials</a></li>
+                    <li><a href="">FAQ</a></li>
+                </ul>
+                <button class="header__btn btn">Contact us</button>
+            </div>
+        </div>
+    </section>
 
+    <section class="section-hero">
+        <div class="hero">
+            <div class="hero__body">
+                <h1 class="hero__title">We create an amazing digital products</h1>
+                <p class="hero__text">We have the knowledge and expertise<br> in
+                    design and modern programming languages
+                    and platforms to help startups and growing companies<br> build
+                    successful products.</p>
+                <button class="hero__btn btn">Get started</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-services">
+        <div class="services">
+            <h2 class="services__title">Services</h2>
+            <p class="services__text">Consulto is a consulting boutique working in the
+                finance sector in New York and Europe</p>
+        </div>
+
+        <div class="services__cards">
+            <div class="cards__item">
+                <img class="cards__logo" src="./images/Group 1.png" alt="g1">
+                <h3 class="cards__title">Consulting</h3>
+                <p class="cards__text ctx__1">We stay with our clients all the way until a solution is implemented and
+                    works.
+                </p>
+            </div>
+
+            <div class="cards__item">
+                <img class="cards__logo" src="./images/Group 2.png" alt="g1">
+                <h3 class="cards__title">Business</h3>
+                <p class="cards__text">We stay with our clients all the way until a solution is implemented and works.
+                </p>
+            </div>
+
+            <div class="cards__item">
+                <img class="cards__logo" src="./images/Group 3.png" alt="g1">
+                <h3 class="cards__title">Managment</h3>
+                <p class="cards__text">We stay with our clients all the way until a solution is implemented and works.
+                </p>
+            </div>
+        </div>
+
+        <div class="services__footer">
+            <button class="services__btn btn">See more</button>
+        </div>
+    </section>
+
+    <section class="section-about">
+        <div class="about">
+            <div class="about__content">
+                <h1 class="about__title">About us</h2>
+                    <p class="about__text--blue">We provide customers with<br> tailored and unique solutions</p>
+                    <p class="about__text">Every day our consultants are proud to help shape the way the world’s leading
+                        companies
+                        structure and manage their business. Only highly-skilled professionals who become agile members
+                        of their
+                        organization to help them get the job done and beyond.</p>
+                    <input type="button" class="about__btn btn" value="See more">
+            </div>
+            <div class="about__image">
+                <img src="./images/About__image.png" alt="Images" width="279px" height="323px">
+            </div>
+        </div>
+    </section>
+    <!--     
+    <section class="section-brands">
+        <div class="brands">
+            <p class="brands__text">Trusted by forward-thinking sompanies of all shapes and sizes</p>
+            <ul class="brands__list">
+                <li><img src="./images/nike.png" alt="nike"></li>
+                <li><img src="./images/microsoft.png" alt="microsoft"></li>
+                <li><img src="./images/google.png" alt="google"></li>
+                <li><img src="./images/rakuten.png" alt="rakuten"></li>
+                <li><img src="./images/holland.png" alt="holland"></li>
+            </ul>
+        </div>
+    </section> -->
+
+    <section class="section-news">
+        <div class="news">
+            <h1 class="news__title">Fresh news</h1>
+            <p class="news__text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                laudantium</p>
+            <div class="news__cards">
+                <div class="news__item">
+                    <img class="item__img" src="./images/Rectangle 31.png" alt="31" />
+                    <div class="item__teg item__teg--red">
+                        <p>Tips</p>
+                    </div>
+                    <h3 class="item__title">This is blog title 01</h3>
+                    <p class="item__content">
+                        Sed ut perspiciatis unde omnis istenat <br />
+                        error sit voluptatem accusantium <br />
+                        doloremque lauda lorem ipsum dolor...
+                    </p>
+                    <p class="item__author">By Sebastian</p>
+                    <p class="item__data">09/09/2021</p>
+                </div>
+
+                <div class="news__item">
+                    <img class="item__img" src="./images/Rectangle 32.png" alt="32" />
+                    <div class="item__teg item__teg--blue">
+                        <p>Business</p>
+                    </div>
+                    <h3 class="item__title">This is blog title 02</h3>
+                    <p class="item__content">
+                        Sed ut perspiciatis unde omnis istenat <br />
+                        error sit voluptatem accusantium <br />
+                        doloremque lauda lorem ipsum dolor...
+                    </p>
+                    <p class="item__author">By Sebastian</p>
+                    <p class="item__data">09/09/2021</p>
+                </div>
+
+                <div class="news__item">
+                    <img class="item__img" src="./images/Rectangle 33.png" alt="33" />
+                    <div class="item__teg item__teg--yellow">
+                        <p>Consulting</p>
+                    </div>
+                    <h3 class="item__title">This is blog title 03</h3>
+                    <p class="item__content">
+                        Sed ut perspiciatis unde omnis istenat <br />
+                        error sit voluptatem accusantium <br />
+                        doloremque lauda lorem ipsum dolor...
+                    </p>
+                    <p class="item__author">By Sebastian</p>
+                    <p class="item__data">09/09/2021</p>
+                </div>
+            </div>
+            <!-- <div class="news__button">
+                <input class="news__btn btn" type="button" value="View All">
+            </div> -->
+        </div>
+    </section>
+
+    <section class="section-review">
+        <div class="review">
+            <h1 class="review__title">What did others say?</h1>
+            <p class="review__content">
+                Sed ut perspiciatis unde omnis iste natus error sit <br />
+                voluptatem accusantium doloremque <br />
+                laudantium
+            </p>
+            <div class="review__cards">
+                <!-- <div class="card__item">
+                    <div class="card card--bordered card__review">
+                        <div class="card__review__author">
+                            <img class="card__logo" src="./images/avatar1.png" alt="av" />
+                            <div class="card__author__info">
+                                <h6 class="card__author">Guy Hawkins</h6>
+                                <p class="card__city">Austin, USA</p>
+                            </div>
+                        </div>
+                        <p class="card__text">
+                            “But I must explain to you how all this <br />
+                            mistaken idea of denouncing pleasure and <br />
+                            praising pain was born and I will give you a <br />
+                            complete account of the system, and <br />
+                            expound the actual teachings of the great”
+                        </p>
+                    </div>
+                </div> -->
+                <div class="card__item">
+                    <div class="card card--bordered card__review">
+                        <div class="card__review__author">
+                            <img class="card__logo" src="./images/avatar2.png" alt="av2" />
+                            <div class="card__author__info">
+                                <h6 class="card__author">Kristin Watson</h6>
+                                <p class="card__city">London, United Kingdom</p>
+                            </div>
+                        </div>
+                        <p class="card__text">
+                            “But I must explain to you how all this <br />
+                            mistaken idea of denouncing pleasure and <br />
+                            praising pain was born and I will give you a <br />
+                            complete account of the system, and <br />
+                            expound the actual teachings of the great”
+                        </p>
+                    </div>
+                </div>
+                <!-- <div class="card__item">
+                    <div class="card card--bordered card__review">
+                        <div class="card__review__author">
+                            <img class="card__logo" src="./images/avatar3.png" alt="av3" />
+                            <div class="card__author__info">
+                                <h6 class="card__author">Leslie Alexander</h6>
+                                <p class="card__city">Frankfurt, Germany</p>
+                            </div>
+                        </div>
+                        <p class="card__text">
+                            “But I must explain to you how all this <br />
+                            mistaken idea of denouncing pleasure and <br />
+                            praising pain was born and I will give you a <br />
+                            complete account of the system, and <br />
+                            expound the actual teachings of the great”
+                        </p>
+                    </div>
+                </div> -->
+            </div>
+            <div class="review__arrows">
+                <img src="./images/Button-nonact-left.png" alt="">
+                <img src="./images/Button-act-right.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="section-subscription">
+        <div class="subscription">
+            <h2 class="subscription__title">Sign up now, upgrade anytime. New accounts get a
+                14-day trial of our paid plans</h2>
+            <div class="subscription__buttons">
+                <input type="button" class="sub__btn sub__btn--black" value="Monthly">
+                <input type="button" class="sub__btn sub__btn--gray" value="Yearly">
+            </div>
+            <div class="sub__cards">
+                <div class="sub__item sub__item1">
+                    <h4 class="sub__item__title">Personal</h4>
+                    <p class="sub__item__price">$39/mo</p>
+                    </p>
+                    <p class="sub__item__text">Born and I will give you a complete account of the system</p>
+                    <ul class="sub__item__list sub__list1">
+                        <li>Unlimited file recovery</li>
+                        <li>Professional reports</li>
+                        <li>Sell on marketplaces</li>
+                        <li>Dolor sit amet</li>
+                        <li>24/7 free support</li>
+                    </ul>
+                    <input type="button" class="sub__btn--bot" value="Purchase now">
+                </div>
+                <div class="sub__item sub__item2">
+                    <h4 class="sub__item__title">Enterprise</h4>
+                    <p class="sub__item__price">$99/mo</p>
+                    <p class="sub__item__text">Born and I will give you a complete account of the system</p>
+                    <ul class="sub__item__list sub__list2">
+                        <li>Unlimited file recovery</li>
+                        <li>Professional reports</li>
+                        <li>Sell on marketplaces</li>
+                        <li>Dolor sit amet</li>
+                        <li>24/7 free support</li>
+                    </ul>
+                    <input type="button" class="sub__btn--bot" value="Purchase now">
+                </div>
+                <div class="sub__item sub__item3">
+                    <h4 class="sub__item__title">Business</h4>
+                    <p class="sub__item__price">$79/mo</p>
+                    <p class="sub__item__text">Born and I will give you a complete account of the system</p>
+                    <ul class="sub__item__list sub__list3">
+                        <li>Unlimited file recovery</li>
+                        <li>Professional reports</li>
+                        <li>Sell on marketplaces</li>
+                        <li>Dolor sit amet</li>
+                        <li>24/7 free support</li>
+                    </ul>
+                    <input type="button" class="sub__btn--bot" value="Purchase now">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-faq">
+        <div class="faq">
+            <h1 class="faq__title">Frequently Asked Questions</h1>
+            <p class="faq__text">
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium
+            </p>
+            <div class="faq__accordeon">
+                <div class="accordeon__item">
+                    <h6 class="accordeon__question">
+                        Unde omnis iste natus error sit?
+                    </h6>
+                    <p class="accordeon__answer"></p>
+                </div>
+                <div class="accordeon__item">
+                    <h6 class="accordeon__question">
+                        Unde omnis iste natus error sit?
+                    </h6>
+                    <p class="accordeon__answer"></p>
+                </div>
+                <div class="accordeon__item">
+                    <h6 class="accordeon__question ac_qu3">
+                        Unde omnis iste natus error sit?
+                    </h6>
+                    <p class="accordeon__answer3">
+                        On the other hand, we denounce with righteous indignation and
+                        dislike men who are so beguiled and demoralized by the charms of
+                        pleasure of the moment, so blinded by desire, that they cannot
+                        foresee the pain and trouble that are bound to ensue; and equal
+                        blame belongs to those who fail in their duty through weakness of
+                        will, which is the same as saying thro shrinking from toil and
+                        pain. These cases are perfectly simple and easy to distinguish.
+                    </p>
+                </div>
+                <div class="accordeon__item">
+                    <h6 class="accordeon__question">
+                        Unde omnis iste natus error sit?
+                    </h6>
+                    <p class="accordeon__answer"></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-email">
+        <div class="email">
+            <h1 class="email__title">Join the newsletter and get all updates and new blogs</h1>
+            <input name="email" placeholder="Enter your email" class="input__form" type="text" />
+            <input type="button" class="email__btn" value=" Subscribe">
+        </div>
+    </section>
+
+    <section class="section-contact">
+        <div class="contact">
+            <h1 class="contact__title">
+                Contact us
+            </h1>
+            <p class="contact__text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                doloremque laudantium</p>
+            <div class="contact__forms">
+                <div class="contact__left">
+                    <div class="inputs">
+                        <p class="left__text">Your name</p>
+                        <input type="text" placeholder="Enter your name" class="input__contact">
+                        <p class="left__text">Your email</p>
+                        <input type="left__email" placeholder="Enter your email" class="input__contact">
+                        <p class="left__text">Message</p>
+                        <textarea placeholder="Type here..." class="input__contact input__textarea"></textarea>
+                    </div>
+                    <input type="button" class="contact__btn" value="View all">
+                </div>
+                <div class="contact__right">
+                    <h5 class="right__title">Contact info:</h5>
+                    <p class="right__address">
+                        4517 Washington Ave.<br>
+                        Manchester, Kentucky 39495
+                    </p>
+                    <div class="right__numbers">
+                        <p>(505) 555-0119</p>
+                        <p>(505) 555-0120</p>
+                        <p>(505) 555-0125</p>
+                    </div>
+                    <p class="right__email">office@consultagency.com</p>
+                    <h5 class="right__contacts__title">Follow us:</h5>
+                    <div class="right__contacts__img">
+                        <img src="./images/facebook.png" alt="facebook">
+                        <img src="./images/twitter.png" alt="twitter">
+                        <img src="./images/linkedin.png" alt="linkedin">
+                        <img src="./images/instagram.png" alt="instagram">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+</body>
+
+</html>
 </body>
 
 </html>
